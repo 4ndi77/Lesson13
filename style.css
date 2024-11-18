@@ -1,0 +1,45 @@
+ul{
+    /*list-style-type: circle;
+    list-style-image: url(download\ .png);*/
+    list-style-type: none;
+    padding: 0;
+    border: solid 2px green;
+}
+ul li{
+    padding: 8px 16px;
+    border-top: 1px solid gray;
+}
+ol{
+   /* list-style-type: upper-roman;
+    list-style-type: lower-alpha;*/
+    list-style-type: upper-latin;
+}
+/*td, th{
+    border: 1px solid black;
+    padding: 15px;
+}
+tbody tr:nth-child(odd){
+    background-color: magenta;
+
+}
+tbody tr:nth-child(even){
+    background-color: skyblue;
+}
+#a1{
+    overflow: scroll ;
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+}*/
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 10px;
+
+}
+tr:nth-child(even) {
+    background-color: beige;
+}
